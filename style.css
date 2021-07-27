@@ -1,0 +1,230 @@
+.date .date-item {
+    display: inline-block;
+    border: 3px solid #e7015e;
+    border-radius: 10px;
+    padding: 18px 20px 14px;
+    color: #3b1d82;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+.date .event-day {
+    display: block;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.sub-title {
+    font-size: 18px;
+    letter-spacing: -.36px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #161362;
+    margin-bottom: 30px;
+}
+
+.color-primary {
+    color: #ff057c !important;
+}
+ .banner-title {
+    margin-bottom: 100px;
+}
+.banner-title {
+    font-size: 74px;
+    color: #3b1d82;
+    font-weight: 800;
+    text-transform: initial;
+    line-height: 82px;
+    letter-spacing: -1.48px;
+    margin-bottom: 20px;
+ }
+ /*
+.banner-title {
+    font-size: 64px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 74px;
+    margin-bottom: 50px;
+} */
+
+
+@media (max-width: 767px){
+ .banner-title {
+    margin-bottom: 50px;
+}
+}
+@media (max-width: 767px){
+.banner-title {
+    font-size: 36px;
+    line-height: 1.2;
+}
+}
+
+.banner-info {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+    display: -webkit-box;
+}
+
+h3 {
+    margin-bottom: 0;
+    color: #3b1d82;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 0 0;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+section#header {
+    padding-top: 10rem;
+    /* padding-bottom: 8rem; */
+    background: url(bg.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 120vw auto;
+    /* background-size: cover; */
+    background-attachment: scroll;
+    background-position-x: 15rem;
+}
+
+.h-transparent2.sticky {
+    background: rgba(255, 255, 255, 0.95);
+    -webkit-box-shadow: 0 8px 17px rgb(0 0 0 / 2%);
+    box-shadow: 0 8px 17px rgb(0 0 0 / 2%);
+}
+
+@media (max-width: 767px){
+ .exprience-content h3 {
+    font-size: 24px;
+    line-height: 1.2;
+}
+}
+
+ .exprience-content h3 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #161362;
+}
+
+
+.extra-feature {
+    -webkit-box-shadow: 0 0 84px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 0 84px 0 rgb(0 0 0 / 10%);
+}
+
+.count-down .counter-item span {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.smalltext {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #999;
+}
+
+.counter-item span {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 74px;
+    color: #3b1d82;
+}
+
+.counter-item b {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+    margin: auto;
+    font-size: 30px;
+    -webkit-transform: translateY(-18%);
+    -ms-transform: translateY(-18%);
+    transform: translateY(-18%);
+}
+
+.location {
+    padding-bottom: 3rem;
+}
+
+.counter-item {
+    text-align: center;
+}
+
+.countdown .counter-item {
+    width: 25%;
+    float: left;
+    margin-right: 0;
+    border: none;
+    position: relative;
+    height: auto;
+}
+
+@media (max-width: 767px){
+.countdown .counter-item {
+    margin-bottom: 20px;
+}
+}
+
+@media (max-width: 767px){
+.countdown .counter-item {
+    width: 50%;
+    padding-bottom: 0;
+}
+}
+.countdown .counter-item {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    margin-right: 18px;
+    padding: 35px 0;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.banner-btn .btn {
+    border-radius: 50px;
+    -webkit-box-shadow: 0 10px 25px 0 rgb(255 5 124 / 40%);
+    box-shadow: 0 10px 25px 0 rgb(255 5 124 / 40%);
+    font-size: 14px;
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.banner-btn .btn {
+    height: 55px;
+    line-height: 55px;
+    padding: 0 48px;
+}
+
+.btn-pink {
+    background: #ff007a;
+    color: white;
+}
+
+.btn-bgprime {
+    background: #3b1d82;
+    color: white;
+    box-shadow: 0 10px 25px 0 rgb(59 29 130 / 50%) !important;
+}
+
+.banner-btn {
+    text-align: -webkit-center;
+}
