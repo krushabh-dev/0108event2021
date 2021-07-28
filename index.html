@@ -101,23 +101,55 @@
                             <p>
                                 Let's Be Ready for Interviews!
                             </p>
-                            <form action="#" method="POST" class="hero-form">
-                                <input class="form-control form-control-name" placeholder="Name" name="name" id="f-name" type="text"
-                                    required="">
-                                <input class="form-control form-control-phone" placeholder="Phone" name="phone" id="f-phone" type="number">
-                                <input class="form-control form-control-email" placeholder="Email" name="email" id="f-email" type="email"
-                                    required="">
-                    
-                                <select name="ticket" id="ticket">
-                                    <option value="ticket">Ticket Type</option>
-                                    <option value="ticket">Ticket 1</option>
-                                    <option value="ticket">Ticket 2</option>
-                                    <option value="ticket">Ticket 3</option>
-                                </select>
-                    
+                            <form
+                                action='https://forms.zohopublic.in/trushabhs/form/BagcampusCareerEventsAug2021/formperma/yVw20Rm9mHSFUsJBbXspgCTc2pEyDikXlX4eQRD0XVg/htmlRecords/submit'
+                                name='form' method='POST' onSubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();'
+                                accept-charset='UTF-8' enctype='multipart/form-data' id='form' class="hero-form">
+                                <input type="hidden" name="zf_referrer_name" value="">
+                                <input type="hidden" name="zf_redirect_url" value="">
+                                <input type="hidden" name="zc_gad" value="">
+                                <div class="form-row">
+                                    <div class="form-group col-6">
+                                        <input class="form-control form-control-name" placeholder="First Name" id="f-name" type="text"
+                                            maxlength="255" name="Name_First" fieldType=7 required="">
+                                    </div>
+                                    <div class="form-group col-6">
+                                        <input class="form-control form-control-name" placeholder="Last Name" id="l-name" type="text"
+                                            maxlength="255" name="Name_Last" fieldType=7 required="">
+                                    </div>
+                                </div>
+                                <input class="form-control form-control-name" placeholder="College/Company Name" type="text" name="SingleLine"
+                                    id="company" checktype="c1" value="" maxlength="255" fieldType=1 />
+                                <input class="form-control form-control-email" placeholder="Email" id="f-email" fieldType=9 type="text"
+                                    maxlength="255" name="Email" checktype="c5" value="" required="">
+                                <div class="form-row">
+                                    <div class="form-group col-3">
+                                        <input class="form-control form-control-phone" placeholder="+91" type="text"
+                                            compname="PhoneNumber_countrycodeval" name="PhoneNumber_countrycodeval" checktype="c7" maxlength="10"
+                                            phoneFormat="1" isCountryCodeEnabled=true id="international_PhoneNumber_countrycodeval"
+                                            valType="code" />
+                                    </div>
+                                    <div class="form-group col-9">
+                                        <input class="form-control form-control-phone" placeholder="Phone" id="phone" type="text"
+                                            compname="PhoneNumber" name="PhoneNumber_countrycode" maxlength="10" checktype="c7" value=""
+                                            phoneFormat="1" isCountryCodeEnabled=true fieldType="11" id="international_PhoneNumber_countrycode"
+                                            valType="number" phoneFormatType="1" />
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-2">
+                                        <input type="checkbox" checktype="c1" checked=true id="DecisionBox" name="DecisionBox" />
+                                    </div>
+                                    <div class="form-group col-10">
+                                        <label for="DecisionBox" class="zf-labelName">I Agree Terms And Conditions
+                                            <em class="zf-important">*</em>
+                                        </label>
+                                    </div>
+                                </div>
                                 <button class="btn" type="submit"> Register Now</button>
                     
-                            </form><!-- form end-->
+                            </form>
+                            <div>
                         </div><!-- hero content end-->
                     </div><!-- col end-->
                     </div><!-- row end-->
@@ -192,7 +224,7 @@
                     <div>
                         <h1 class="special-title text-center">Share About This Great Event!</h1>
                         <img src="MRB_BANNER.png" class="img-fluid" alt="Responsive image">
-                        <div class="banner-btn aos-init" data-aos="fadeInUp" data-aos-duration="1.5s" data-aos-delay="300ms"
+                        <div class="banner-btn aos-init text-center" data-aos="fadeInUp" data-aos-duration="1.5s" data-aos-delay="300ms"
                             style="visibility: visible; animation-duration: 1.5s; animation-delay: 300ms; animation-name: fadeInUp;">
                             <a target="__blank" href="file:MRB_BANNER.png" class="btn btn-ticket btn-bgprime mt-4"> <i class="fa fa-plus-circle"
                                     aria-hidden="true"></i> SHARE NOW </a>
@@ -392,6 +424,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
     <script src="anime-script.js"></script>
+    <script src="master.js"></script>
+    <script src="Bagcampus_Career_Events__Aug_2021/js/validation.js"></script>
 </body>
 
 </html>
