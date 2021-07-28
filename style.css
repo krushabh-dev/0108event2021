@@ -219,6 +219,11 @@ section#header {
     color: white;
 }
 
+.exprience-content {
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+}
+
 .btn-bgprime {
     background: #3b1d82;
     color: white;
@@ -227,4 +232,41 @@ section#header {
 
 .banner-btn {
     text-align: -webkit-center;
+}
+
+#event-topic{
+    background: linear-gradient(180deg, #f7f8fa91, #ffffff);
+}
+
+.special-title {
+    font-size: 1.8rem;
+    font-style: inherit;
+    color: #6f7cc0;
+    font-weight: 300;
+    font-variant: petite-caps;
+}
+
+#special-scroll {
+  height: auto;
+  overflow: hidden;
+  padding: 10vw 3vw 3vw;
+  background: url(scrollsection_bg.png);
+}
+
+.scrolled-element {
+  height: auto;
+  overflow: hidden;
+  margin-top: 18vh;
+}
+@media (min-width: 768px){
+    .scrolled-element {
+  height: auto;
+  overflow: hidden;
+  margin-top: 4vh;
+}
+}
+
+.scrolled-element {
+    border: dashed;
+    padding: 30px;
 }
