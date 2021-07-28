@@ -124,18 +124,18 @@
                                     maxlength="255" name="Email" checktype="c5" value="" required="">
                                 <div class="form-row">
                                     <div class="form-group col-3">
-                                        <input class="form-control form-control-phone" placeholder="+91" type="text"
+                                        <select class="form-control form-control-phone" placeholder="+91" type="text"
                                             compname="PhoneNumber_countrycodeval" name="PhoneNumber_countrycodeval" checktype="c7" maxlength="10"
                                             phoneFormat="1" isCountryCodeEnabled=true id="international_PhoneNumber_countrycodeval"
-                                            valType="code" />
+                                            valType="code">
+                                        <option value="+91">+91</option>
+                                        </select>
                                     </div>
                                     <div class="form-group col-9">
-                                        <select class="form-control form-control-phone" placeholder="Phone" id="phone" type="text"
+                                        <input class="form-control form-control-phone" placeholder="Phone" id="phone" type="text"
                                             compname="PhoneNumber" name="PhoneNumber_countrycode" maxlength="10" checktype="c7" value=""
                                             phoneFormat="1" isCountryCodeEnabled=true fieldType="11" id="international_PhoneNumber_countrycode"
                                             valType="number" phoneFormatType="1" />
-                                            <option value="+91">+91</option>
-                                            </select>
                                     </div>
                                 </div>
                                 <div class="form-row">
