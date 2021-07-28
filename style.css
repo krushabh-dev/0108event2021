@@ -230,9 +230,9 @@ section#header {
     box-shadow: 0 10px 25px 0 rgb(59 29 130 / 50%) !important;
 }
 
-.banner-btn {
+/* .banner-btn {
     text-align: -webkit-center;
-}
+} */
 
 #event-topic{
     background: linear-gradient(180deg, #f7f8fa91, #ffffff);
