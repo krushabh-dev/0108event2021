@@ -151,6 +151,10 @@
             padding: 0;
         }
     
+        label.zf-labelName {
+    font-size: 0.6rem;
+    float: left;
+}
         /* Dropcap */
         .dropcap {
             font-size: 48px;
