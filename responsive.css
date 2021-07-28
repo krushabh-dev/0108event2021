@@ -1,6 +1,15 @@
 /*==========================
 tab rotate 
 ===========================*/
+.fade_down_effect span.brand-name {
+    color: white;
+}
+.fade_down_effect ul.navbar-nav.ml-auto {
+    background: transparent !important;
+}
+.fade_down_effect.header.header-transparent ul.navbar-nav>li>a {
+    color: white;
+}
 @media (min-width: 992px) and (max-width: 1200px) {
 .header ul.navbar-nav > li > a {
 padding: 0 10px;
@@ -302,15 +311,6 @@ max-width: 130px; }
 .header-transparent .navbar-toggler {
 background: #e7015e;
 color: #fff; }
-.fade_down_effect span.brand-name {
-    color: white;
-}
-.fade_down_effect ul.navbar-nav.ml-auto {
-    background: transparent !important;
-}
-.fade_down_effect.header.header-transparent ul.navbar-nav>li>a {
-    color: white;
-}
 .header-transparent .navbar-nav {
 background: #ffe5f1;
 padding: 20px 0; }
