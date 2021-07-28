@@ -49,3 +49,13 @@ var x = setInterval(function () {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
+   $(window).on("scroll", function () {
+     /**Fixed header**/
+     if ($(window).scrollTop() > 250) {
+       $(".header").addClass("sticky fade_down_effect");
+     } else {
+       $(".header").removeClass("sticky fade_down_effect");
+     }
+   });
