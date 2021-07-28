@@ -138,6 +138,8 @@
                                             valType="number" phoneFormatType="1" />
                                     </div>
                                 </div>
+                                <input class="form-control form-control-referrid" placeholder="Enter Refferal Id (Optional)" id="f-refer" fieldType=9
+                                    type="text" maxlength="255" name="referid" checktype="c5" value="">
                                 <div class="form-row">
                                     <div class="form-group col-2">
                                         <input type="checkbox" checktype="c1" checked=true id="DecisionBox" name="DecisionBox" />
@@ -407,9 +409,10 @@
             crossorigin="anonymous"></script>
             <script>
                 jQuery("body").prepend('<div id="preloader">Loading...</div>');
-                co
+                console.log("Loader Activated");
                 jQuery(document).ready(function () {
                     jQuery("#preloader").remove();
+                    console.log("Loader Deactivated");
                 });
             </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
