@@ -12,6 +12,12 @@
   opacity: .8;
 }
 
+button.btn.w-36 {
+    font-size: 0.64rem;
+    padding: 0px 0px !important;
+    margin: 0;
+    width: 110px;
+}
 
         body,
         p {
