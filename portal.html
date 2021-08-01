@@ -47,8 +47,107 @@
 </head>
 
 <body>
-    
+      <header class="fade-in">
+        <div class="navigation-bar flex middle-xs">
+            <h2>Bagcampus</h2>
+        </div>
+        <div class="hero flex middle-xs">
+            <div class="hero-text ">
+                <h1>Bagcampus Events Certificate Portal</h1>
+                <p>Enter Your Email Address</p>
+                <input type="text" name="" id="uid">
+                <br>
+                <button id="certificatesubmit">Submit</button>
+	    <div id="certificatebox">
+                <span id="certificate"></span>
+            </div>
+            </div>
+        </div>
+    </header>
 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <a href=""></a>
+    <script>
+    
+    $(document).ready(function () {
+            $("#certificatesubmit").click(function () {
+console.log("Certificate Submit Button Clicked");
+                var getcertified = false;
+                var bla = $('#uid').val();
+                var domain = $('#domain').val();
+
+
+if (bla == 'rushabhrbs@gmail.com') {
+    alert("Dear Krushabhsingh Suryawanshi!, Click To Download Certificate <br>");
+    $('#certificate').append('<a href="cert/Certificate Krushabhsingh Suryawanshi.pdf">Download Certificate</a>');
+    var getcertified = true;
+}
+if (bla == 'jairaj34801@gmail.com') {
+    alert("Dear Jai Kumar!, Click To Download Certificate <br>");
+    $('#certificate').append('<a href="cert/Certificate Jai Kumar.pdf">Download Certificate</a>');
+    var getcertified = true;
+}
+if (bla == 'chavanpratik313@gmail.com') {
+    alert("Dear Pratik Chavhan!, Click To Download Certificate <br>");
+    $('#certificate').append('<a href="cert/Certificate Pratik Chavhan.pdf">Download Certificate</a>');
+    var getcertified = true;
+}
+if (bla == 'yash00000agarwal@gmail.com') {
+    alert("Dear Yash Agarwal!, Click To Download Certificate <br>");
+    $('#certificate').append('<a href="cert/Certificate Yash Agarwal.pdf">Download Certificate</a>');
+    var getcertified = true;
+}
+if (bla == 'rr6729@srmist.edu.in') {
+    alert("Dear Ramasahayam Srikar Reddy !, Click To Download Certificate <br>");
+    $('#certificate').append('<a href="cert/Certificate Ramasahayam Srikar Reddy .pdf">Download Certificate</a>');
+    var getcertified = true;
+}
+if (bla == 'santoshnarayan4575@gmail.com') {
+    alert("Dear Santosh Narayan V !, Click To Download Certificate <br>");
+    $('#certificate').append('<a href="cert/Certificate Santosh Narayan V .pdf">Download Certificate</a>');
+    var getcertified = true;
+}
+if (bla == 'syyedshuja2001@gmail.com') {
+    alert("Dear Mohd Shuja Akhtar!, Click To Download Certificate <br>");
+    $('#certificate').append('<a href="cert/Certificate Mohd Shuja Akhtar.pdf">Download Certificate</a>');
+    var getcertified = true;
+}
+if (bla == 'Choudhurysamarjyoti@gmail.com') {
+    alert("Dear Samarjyoti choudhury!, Click To Download Certificate <br>");
+    $('#certificate').append('<a href="cert/Certificate Samarjyoti choudhury.pdf">Download Certificate</a>');
+    var getcertified = true;
+}
+if (bla == 'deepak854446@gmail.com') {
+    alert("Dear Deepak Kumar!, Click To Download Certificate <br>");
+    $('#certificate').append('<a href="cert/Certificate Deepak Kumar.pdf">Download Certificate</a>');
+    var getcertified = true;
+}
+if (bla == 'ashishrajak8889@gmail.com') {
+    alert("Dear Ashish Rajak!, Click To Download Certificate <br>");
+    $('#certificate').append('<a href="cert/Certificate Ashish Rajak.pdf">Download Certificate</a>');
+    var getcertified = true;
+}
+if (bla == 'adityamani') {
+    alert("Dear Aditya Mani!, Click To Download Certificate <br>");
+    $('#certificate').append('<a href="cert/Certificate Aditya Mani.pdf">Download Certificate</a>');
+    var getcertified = true;
+}
+if (bla == 'prathm') {
+    alert("Dear Prathmesh Gupta!, Click To Download Certificate <br>");
+    $('#certificate').append('<a href="cert/Certificate Prathmesh Gupta.pdf">Download Certificate</a>');
+    var getcertified = true;
+}
+
+
+                if (getcertified == false) {
+                    alert("Either You Have Entered Wrong UniqueID/Email or You Have Not Completed Task. Try Again!")
+                }
+            })
+        })
+
+    </script>
 </body>
 
 </html>
