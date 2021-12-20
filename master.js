@@ -22,7 +22,7 @@ var zf_FieldArray = [
 var isSalesIQIntegrationEnabled = false;
 var salesIQFieldsArray = [];
 
-var countDownDate = new Date("Aug 1, 2021 11:00:00").getTime();
+var countDownDate = new Date("Dec 26, 2021 11:00:00").getTime();
 
 var x = setInterval(function () {
   // Get today's date and time
