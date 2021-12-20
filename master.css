@@ -54,6 +54,10 @@ button.btn.w-36 {
             font-weight: 700;
         }
     
+        h1 p {
+    font-family: monospace;
+}
+
         h3 {
             font-size: 24px;
             margin-bottom: 20px;
@@ -1432,6 +1436,7 @@ button.btn.w-36 {
   color: #eee;
   font-size: 14px;
 }
+
 
 #footer .footer-top {
   background: #040919;
